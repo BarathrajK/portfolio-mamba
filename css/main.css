@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Open+Sans&family=Poppins&display=swap');
+
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 .header{
     border-bottom: 1px solid rgb(0 0 0 / 6%);
@@ -15,8 +19,6 @@
 color: #1e262c;
 }
 
-
-
 .flex-quick-access{
     display: flex;
     justify-content: space-between;
@@ -28,8 +30,6 @@ color: #1e262c;
     color: #5c768d;
     margin-right: 10px;
 }
-
-
 .mail-phone i{
     color: #428bca;
     font-size: 18px;
@@ -45,12 +45,16 @@ color: #1e262c;
     font-weight: 800;
     font-size: 20px;
 }
-
-
-.qaccess{
+.ags{
 	padding: 10px;
 	background: #ffffff;
-    
+}
+.socia-contact a{
+    text-decoration: none;
+    color: #111;
+}
+.socia-contact a:hover{
+    color: red;
 }
 .logo > a{
 	font-size:30px;
@@ -77,32 +81,10 @@ color: #1e262c;
     color: #37423b;
     font-weight: 600;
 }
-.drpdown{
-    position: relative;
+.mail-phone a{
+    color: #111;
+    text-decoration: none;
 }
-.drpdown .droplink{
-    position: absolute;
-    top: 35px;
-    left: 0;
-    width: 180px;
-    background-color: #ffffff;
-    opacity: 0;
-    visibility: hidden;
-    box-shadow: 0 0 5px rgba(46, 35, 35, 0.568);
-    border-radius: 5px;
-	z-index: 5;
-}
-.drpdown ul{
-    padding-bottom: 10px;
-}
-.drpdown ul li{
-    padding-top: 10px;
-}
-.drpdown:hover .droplink{
-    opacity: 1;
-    visibility: visible;
-}
-
 .flex-banner{
     position: relative;
     display: flex;
@@ -131,7 +113,6 @@ color: #1e262c;
     display: flex;   
     color: rgb(224, 224, 224);
     font-size: 60px;
-    font-family: "Open Sans", sans-serif;
     font-weight: 800;
 }
 .banner-details p{
@@ -139,7 +120,6 @@ color: #1e262c;
     padding-top: 30px;
     line-height: 25px;
     font-size: 17px;
-    font-family: "Open Sans", sans-serif;
 }
 .banner-details button{
    background-color: #0c61ac;
@@ -175,8 +155,7 @@ color: #1e262c;
     font-size: 50px;
 }
 .about-text-title h2{
-    color: #212c35;
-    font-family: "raleway", sans-serif;
+    color: #324250;
     font-size: 62px;
     padding-bottom: 10px;
 }
@@ -218,29 +197,19 @@ color: #1e262c;
 .about-text h3{
     font-size: 25px;
     padding-bottom: 15px;
-    font-family:  "Raleway", sans-serif;
     
 }
 .about-text p{
     line-height: 23px;
     font-size: 15px;
     color: rgb(30, 29, 29);
-    font-family: "Open Sans", sans-serif;
 }
 
 .features-list{
     padding: 40px;
-    /* border-left: solid 1px #373c41;
-    border-bottom: solid 1px #506171; */
     margin: -1px;
-    
 }
-
-
-
-
 .features-para{
-    font-family: "Segoe UI", system-ui,  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
     line-height: 25px;
     color: #aaaaaa;
@@ -254,7 +223,6 @@ color: #1e262c;
     padding-bottom: 30px;  
 }
 .flex-features h3{
-    font-family:  "Raleway", sans-serif;
     color: #444;
     font-size: 25px;
     margin: 30px 0;
@@ -275,12 +243,9 @@ color: #1e262c;
     font-size: 40px;
     font-weight: 700;
     color: #1c5c93;
-    font-family: "Open Sans", sans-serif;
-    
 }
 .client-list1 p{
     font-size: 15px;
-    font-family: "Raleway", sans-serif;
     text-transform: capitalize;
     padding-bottom: 30px;
 }
@@ -292,7 +257,6 @@ color: #1e262c;
     display: flex;
     justify-content: center;
     font-size: 35px;
-    font-family: "Raleway", sans-serif;
     color: #5c768d;
     padding-bottom: 40px;
 }
@@ -328,18 +292,16 @@ color: #1e262c;
     margin: 15px auto;
 }
 .serivice-text h4{
-    font-family: "Raleway", sans-serif;
     font-size: 20px;
     color: #444;
 }
 .serivice-text p{
-    font-family: "Open Sans", sans-serif;
     line-height: 28px;
     color: #444;
     font-size: 15px;
 }
 .services-box:hover .services-content .serivice-icon{
-    box-shadow: 0 0 20px #7bc0fd;
+    box-shadow: 0 0 20px #4299e6;
 } 
 
 
@@ -351,7 +313,6 @@ color: #1e262c;
     justify-content: center;
     font-size: 45px;
     color: #1e262c;
-    font-family: "Open Sans", sans-serif;
     padding-top: 70px;
     padding-bottom: 25px;
 }
@@ -359,7 +320,6 @@ color: #1e262c;
 .portfolio-title p{
     display: flex;
     justify-content: center;
-    font-family: "Open Sans", sans-serif;
     color: rgb(32, 32, 32);
     font-size: 16px;
     line-height: 30px;
@@ -379,8 +339,7 @@ color: #1e262c;
     display: block;
     width: 100%;
     height: auto;
-    transition: all 0.5s ease;
-   
+    transition: all 0.5s ease;  
 }
 .portfolio-text{
     position: absolute;
@@ -397,7 +356,6 @@ color: #1e262c;
 }
 .portfolio-first-text{
     transform: translateY(-20px);
-    /* transition: all 0.5s ease;  */
 }
 .portfolio-content:hover .portfolio-first-text{
     transform: translateY(1px);
@@ -409,7 +367,6 @@ color: #1e262c;
     font-size: 22px;
     display: flex;
     color: #fff;
-    font-family: "Open Sans", sans-serif ;
     text-align: center;
     justify-content: center;
     margin-bottom: 5px;
@@ -419,7 +376,6 @@ color: #1e262c;
     justify-content: center;
     font-size: 14px;
     color: rgb(255, 255, 255);
-    font-family: "Open Sans", sans-serif ;
     text-align: center;
     margin-bottom: 17px;
     margin-top: 15px;
@@ -433,7 +389,7 @@ color: #1e262c;
 
 .portfolio-link a{
     text-decoration: none;
-    color: rgb(117, 68, 68);
+    color: rgb(252, 67, 67);
     display: block;
     justify-content: center;
     text-align: center;
@@ -463,14 +419,12 @@ color: #1e262c;
     color: #5c768d;
     display: flex;
     justify-content: center;
-    font-family: "Raleway", sans-serif,"Open Sans", sans-serif;
     padding-top: 50px;
     padding-bottom: 30px;
 }
 .profile-title p{
     display: flex;
     justify-content: center;
-    font-family: "Open Sans", sans-serif;
     color: #444;
     padding-bottom: 20px;
 }
@@ -515,7 +469,6 @@ color: #1e262c;
 
 .profile-bio h4{
     font-size: 17px;
-    font-family: "Raleway", sans-serif;
     color: #fff;
 }
 .profile-bio .name-ul{
@@ -527,7 +480,6 @@ color: #1e262c;
 .profile-bio p {
     color: #fff;
     font-size: 13px;
-    font-family: "Open Sans", sans-serif;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -568,7 +520,6 @@ color: #1e262c;
 }
 .faq-sec p{
     font-size: 17px;
-    font-family: "Open Sans", sans-serif;
     line-height: 25px;
     color: #444;
 }
@@ -577,7 +528,6 @@ color: #1e262c;
     justify-content: center;
     font-size: 32px;
     color: #232c35;
-    font-family: "Raleway", sans-serif,"Open Sans", sans-serif;
     padding-top: 50px;
     padding-bottom: 25px;
 }
@@ -599,14 +549,12 @@ color: #1e262c;
 .address-box-first h4{
     font-size: 18px;
     color: #666;
-    font-family: "Raleway", sans-serif;
     margin-top: 20px;
 }
 .address-box-first p{
     line-height: 25px;
     margin-top: 10px;
     font-size: 14px;
-    font-family: "Open Sans", sans-serif;
     color: #444;
 }
 .address-box-content{
@@ -631,14 +579,12 @@ transform: scale(1.1);
 .address-box-content h4{ 
     font-size: 18px;
     color: #666;
-    font-family: "Raleway", sans-serif;
     margin-top: 20px;
 }
 .address-box-content p{
     line-height: 25px;
     margin-top: 10px;
     font-size: 14px;
-    font-family: "Open Sans", sans-serif;
     color: #444;
 }
 .email-box p{
@@ -653,10 +599,6 @@ transform: scale(1.1);
 .flex-contact-us{
     padding-top: 20px;
 }
-
-
-
-
 .flex-form{
     box-shadow: 0 0 30px rgb(214 215 216 / 60%);
     margin-bottom: 30px;
@@ -695,17 +637,20 @@ transform: scale(1.1);
     justify-content: center;
 }
 .from-button button{
-    padding: 15px 40px;
+    padding: 10px 20px;
     font-size: 22px;
-    background-color: #428bca;
-    border: 0;
+    background-color: #47ca42;
+    border: none;
+    border-radius: 20px;
     color: #fff;
     
 }
 .from-button button:hover{
-    background-color: #295276;
+    background-color: #459deb;
     border-radius: 10px;
     font-size: 24px;
+    color: yellow;
+    transform: scale(.9);
 }
 .footer{
     background-color: #587187;
